@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>نوشیدنی‌های سرد | کافه رستوران من</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+    <div class="logo">
+        کافه رستوران من ☕
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle">
+        ☰
+    </button>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="index.html#menu">منوی کافه</a></li>
+            <li><a href="index.html#about">درباره ما</a></li>
+            <li><a href="gallery.html">گالری</a></li>
+            <li><a href="contact.html">تماس با ما</a></li>
+        </ul>
+    </nav>
+
+    <a href="cart.html" class="cart">
+        🛒
+        <span id="cart-count">0</span>
+    </a>
+
+</header>
+
+    <!-- Hero -->
+    <section class="category-page-hero">
+
+        <div class="category-page-hero-content">
+
+            <span>خنک، تازه و انرژی‌بخش</span>
+
+            <h1>نوشیدنی‌های سرد</h1>
+
+            <p>
+                مجموعه‌ای از نوشیدنی‌های خنک و خوش‌طعم
+                برای لحظه‌های گرم و دوست‌داشتنی شما
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <section class="products-section">
+
+        <div class="products-grid">
+
+
+            <!-- میلک شیک -->
+            <div class="product-card">
+
+                <img src="images/Chocolate or strawberry milkshake.jpg"
+                     alt="میلک‌شیک توت‌فرنگی و شکلات">
+
+                <div class="product-content">
+
+                    <h3>میلک‌شیک توت‌فرنگی و شکلات</h3>
+
+                    <p>
+                        ترکیبی خنک و خوشمزه از بستنی،
+                        توت‌فرنگی و شکلات
+                    </p>
+
+                    <span class="product-price">
+                        190000 تومان
+                    </span>
+
+                   <button class="add-to-cart-btn"
+                        onclick="addToCart('میلک شیک', 190000)">
+                         افزودن به سبد
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- موهیتو -->
+            <div class="product-card">
+
+                <img src="images/mojito.jpg"
+                     alt="موهیتو">
+
+                <div class="product-content">
+
+                    <h3>موهیتو</h3>
+
+                    <p>
+                        نوشیدنی خنک و تازه با طعم لیمو و نعناع
+                    </p>
+
+                    <span class="product-price">
+                        140000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('موهیتو', 140000)">
+                         افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- اسموتی -->
+            <div class="product-card">
+
+                <img src="images/strawberry-smoothie.jpg"
+                     alt="اسموتی توت‌فرنگی">
+
+                <div class="product-content">
+
+                    <h3>اسموتی توت‌فرنگی</h3>
+
+                    <p>
+                        اسموتی تازه و خنک با طعم توت‌فرنگی
+                    </p>
+
+                    <span class="product-price">
+                        160000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('اسموتی توت فرنگی', 160000)">
+                         افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- آب پرتقال -->
+            <div class="product-card">
+
+                <img src="images/orange-juice.jpg"
+                     alt="آب پرتقال تازه">
+
+                <div class="product-content">
+
+                    <h3>آب پرتقال تازه</h3>
+
+                    <p>
+                        آب پرتقال طبیعی و تازه، سرشار از طراوت
+                    </p>
+
+                    <span class="product-price">
+                        130000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('آب پرتغال تازه', 130000)">
+                         افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+	
+	<div class="back-to-menu">
+		<a href="index.html#menu">← بازگشت به منوی کافه</a>
+	</div>
+
+
+    <!-- Footer -->
+    <footer>
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h3>کافه رستوران من ☕</h3>
+
+            <p>
+                جایی برای نوشیدن یک فنجان قهوه،
+                لذت بردن از غذاهای خوشمزه و ساختن
+                لحظه‌های ماندگار در کنار عزیزانتان.
+            </p>
+        </div>
+
+
+        <div class="footer-links">
+            <h3>دسترسی سریع</h3>
+
+            <a href="index.html">خانه</a>
+            <a href="index.html#menu">منوی کافه</a>
+            <a href="about.html">درباره ما</a>
+            <a href="gallery.html">گالری</a>
+            <a href="contact.html">تماس با ما</a>
+        </div>
+
+
+        <div class="footer-contact">
+            <h3>ارتباط با ما</h3>
+
+            <p>📞 ۰۲۱-۱۲۳۴۵۶۷۸</p>
+
+            <p>✉️ info@example.com</p>
+
+            <p>📍 تهران، ایران</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            تمامی حقوق محفوظ است © 2026
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>کیک و دسر | کافه رستوران من</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+    <button class="menu-toggle" id="menu-toggle">
+        ☰
+    </button>
+
+    <div class="logo">
+        کافه رستوران من ☕
+    </div>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="index.html#menu">منوی کافه</a></li>
+            <li><a href="index.html#about">درباره ما</a></li>
+            <li><a href="gallery.html">گالری</a></li>
+            <li><a href="contact.html">تماس با ما</a></li>
+        </ul>
+    </nav>
+
+    <a href="cart.html" class="cart">
+        🛒 سبد خرید
+        <span id="cart-count">0</span>
+    </a>
+
+</header>
+
+
+    <!-- Hero -->
+    <section class="category-page-hero">
+
+        <div class="category-page-hero-content">
+
+            <span>شیرین، تازه و لذت‌بخش</span>
+
+            <h1>کیک و دسر</h1>
+
+            <p>
+                مجموعه‌ای از کیک‌ها و دسرهای خوشمزه
+                برای شیرین‌تر کردن لحظه‌های شما
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <section class="products-section">
+
+        <div class="products-grid">
+
+            <!-- کیک شکلاتی -->
+            <div class="product-card">
+
+                <img src="images/cake-chocolate_1.jpg"
+                     alt="کیک شکلاتی">
+
+                <div class="product-content">
+
+                    <h3>کیک شکلاتی</h3>
+
+                    <p>
+                        کیک شکلاتی تازه با بافتی نرم
+                        و طعمی دلنشین
+                    </p>
+
+                    <span class="product-price">
+                        180000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('کیک شکلاتی', 180000)">
+                             افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- چیزکیک -->
+            <div class="product-card">
+
+                <img src="images/chizz-cake.jpg"
+                     alt="چیزکیک">
+
+                <div class="product-content">
+
+                    <h3>چیزکیک</h3>
+
+                    <p>
+                        چیزکیک نرم و خامه‌ای
+                        با طعمی خاص و دلنشین
+                    </p>
+
+                    <span class="product-price">
+                        220000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('چیزکیک ', 220000)">
+                         افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- کیک توت‌فرنگی -->
+            <div class="product-card">
+
+                <img src="images/strawberry-cake.jpg"
+                     alt="کیک توت‌فرنگی">
+
+                <div class="product-content">
+
+                    <h3>کیک توت‌فرنگی</h3>
+
+                    <p>
+                        کیکی لطیف و خوشمزه
+                        با طعم دلنشین توت‌فرنگی
+                    </p>
+
+                    <span class="product-price">
+                        210000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('کیک توت فرنگی', 210000)">
+                             افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- تیرامیسو -->
+            <div class="product-card">
+
+                <img src="images/Tiramisu.jpg"
+                     alt="تیرامیسو">
+
+                <div class="product-content">
+
+                    <h3>تیرامیسو</h3>
+
+                    <p>
+                        دسر کلاسیک و خوش‌طعم
+                        با ترکیبی نرم و خامه‌ای
+                    </p>
+
+                    <span class="product-price">
+                        230000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('تیرامیسو', 230000)">
+                             افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- دکمه بازگشت -->
+    <div class="back-to-menu">
+        <a href="index.html#menu">← بازگشت به منوی کافه</a>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h3>کافه رستوران من ☕</h3>
+
+            <p>
+                جایی برای نوشیدن یک فنجان قهوه،
+                لذت بردن از غذاهای خوشمزه و ساختن
+                لحظه‌های ماندگار در کنار عزیزانتان.
+            </p>
+        </div>
+
+
+        <div class="footer-links">
+            <h3>دسترسی سریع</h3>
+
+            <a href="index.html">خانه</a>
+            <a href="index.html#menu">منوی کافه</a>
+            <a href="about.html">درباره ما</a>
+            <a href="gallery.html">گالری</a>
+            <a href="contact.html">تماس با ما</a>
+        </div>
+
+
+        <div class="footer-contact">
+            <h3>ارتباط با ما</h3>
+
+            <p>📞 ۰۲۱-۱۲۳۴۵۶۷۸</p>
+
+            <p>✉️ info@example.com</p>
+
+            <p>📍 تهران، ایران</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            تمامی حقوق محفوظ است © 2026
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

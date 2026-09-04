@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>کافه رستوران من</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <header>
+
+        <div class="logo">
+            کافه رستوران من ☕
+        </div>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="باز کردن منو">
+            ☰
+        </button>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="index.html#menu">منوی کافه</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+                <li><a href="gallery.html" class="active">گالری</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
+            </ul>
+        </nav>
+
+        <a href="cart.html" class="cart">
+            🛒 سبد خرید
+            <span id="cart-count">0</span>
+        </a>
+
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <img src="images/burger-hero.jpg"
+                alt="برگر و فضای کافه"
+                class="hero-image">
+
+            <div class="hero-content">
+
+                <h2>طعم خوب، حال خوب</h2>
+
+                <p>
+                    جایی برای نوشیدن یک فنجان قهوه،
+                    خوردن یک غذای خوشمزه و ساختن لحظه‌های زیبا
+                </p>
+
+                <a href="#menu" class="hero-btn">
+                    مشاهده منوی کافه
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about" id="about">
+
+            <div class="about-image">
+
+                <img src="images/cafe-hero.png"
+                     alt="فضای کافه">
+
+            </div>
+
+            <div class="about-content">
+
+                <span>درباره کافه ما</span>
+
+                <h2>جایی برای لحظه‌های خوش</h2>
+
+                <p>
+                    ما اینجا تلاش می‌کنیم فضایی گرم و صمیمی برای شما فراهم کنیم؛
+                    جایی که بتوانید در کنار دوستان و عزیزانتان از یک غذای خوشمزه
+                    لذت ببرید.
+                </p>
+
+                <a href="about.html" class="about-btn">
+                     بیشتر بدانید
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+
+            <div class="menu-title">
+
+                <span>منوی کافه</span>
+
+                <h2>انتخابی برای هر سلیقه</h2>
+
+                <p>
+                    از قهوه و نوشیدنی‌های تازه تا غذاها و دسرهای خوشمزه
+                </p>
+
+            </div>
+
+
+            <div class="menu-container">
+
+                <!-- Coffee Card -->
+                <a href="coffee.html" class="menu-link">
+
+                    <div class="menu-card">
+
+                        <img src="images/coffee.jpg"
+                             alt="قهوه مخصوص کافه">
+
+                        <div class="menu-card-content">
+
+                            <h3>قهوه مخصوص کافه</h3>
+
+                            <p>
+                                قهوه‌ای خوش‌عطر و تازه برای شروع یک روز خوب
+                            </p>
+
+                            <span class="price">
+                                150000 تومان
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Burger Card -->
+                <a href="burger.html" class="menu-link">
+
+                    <div class="menu-card">
+
+                        <img src="images/Burger.png"
+                             alt="برگر مخصوص">
+
+                        <div class="menu-card-content">
+
+                            <h3>برگر مخصوص کافه</h3>
+
+                            <p>
+                                برگر تازه و خوشمزه با گوشت مخصوص و مواد تازه
+                            </p>
+
+                            <span class="price">
+                                280000 تومان
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Cake Card -->
+                <a href="cake.html" class="menu-link">
+
+                    <div class="menu-card">
+
+                        <img src="images/cake-shokolati.jpg"
+                             alt="کیک شکلاتی">
+
+                        <div class="menu-card-content">
+
+                            <h3>کیک شکلاتی</h3>
+
+                            <p>
+                                کیک شکلاتی تازه با طعمی دلنشین و لایه‌ای نرم
+                            </p>
+
+                            <span class="price">
+                                180000 تومان
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+            </div>
+			
+			<!-- دسته‌بندی منوی کافه -->
+	<div class="category-container">
+
+		<a href="coffee.html" class="category-card">
+			<img src="images/coffee.jpg" alt="قهوه">
+        <div class="category-overlay">
+            <h3>قهوه و نوشیدنی گرم</h3>
+            <span>مشاهده منو</span>
+        </div>
+		</a>
+
+
+    <a href="cold-drinks.html" class="category-card">
+        <img src="images/orange-juice.jpg" alt="نوشیدنی سرد">
+        <div class="category-overlay">
+            <h3>نوشیدنی‌های سرد</h3>
+            <span>مشاهده منو</span>
+        </div>
+    </a>
+
+
+    <a href="burger.html" class="category-card">
+        <img src="images/Burger.png" alt="برگر و غذا">
+        <div class="category-overlay">
+            <h3>برگر و غذا</h3>
+            <span>مشاهده منو</span>
+        </div>
+    </a>
+
+
+    <a href="pizza.html" class="category-card">
+        <img src="images/pizza.jpg" alt="پیتزا و فست‌فود">
+        <div class="category-overlay">
+            <h3>پیتزا و فست‌فود</h3>
+            <span>مشاهده منو</span>
+        </div>
+    </a>
+
+
+    <a href="cake.html" class="category-card">
+        <img src="images/cake-shokolati.jpg" alt="کیک و دسر">
+        <div class="category-overlay">
+            <h3>کیک و دسر</h3>
+            <span>مشاهده منو</span>
+        </div>
+    </a>
+
+
+    <a href="icecream.html" class="category-card">
+        <img src="images/ice-cream-caramel.png" alt="بستنی">
+        <div class="category-overlay">
+            <h3>بستنی و دسر سرد</h3>
+            <span>مشاهده منو</span>
+        </div>
+	</a>
+
+	</div>
+
+        </section>
+
+    </main>
+
+
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h3>کافه رستوران من ☕</h3>
+
+            <p>
+                جایی برای نوشیدن یک فنجان قهوه،
+                لذت بردن از غذاهای خوشمزه و ساختن
+                لحظه‌های ماندگار در کنار عزیزانتان.
+            </p>
+        </div>
+
+
+        <div class="footer-links">
+            <h3>دسترسی سریع</h3>
+
+            <a href="index.html">خانه</a>
+            <a href="index.html#menu">منوی کافه</a>
+            <a href="about.html">درباره ما</a>
+            <a href="gallery.html">گالری</a>
+            <a href="contact.html">تماس با ما</a>
+        </div>
+
+
+        <div class="footer-contact">
+            <h3>ارتباط با ما</h3>
+
+            <p>📞 ۰۲۱-۱۲۳۴۵۶۷۸</p>
+
+            <p>✉️ info@example.com</p>
+
+            <p>📍 تهران، ایران</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            تمامی حقوق محفوظ است © 2026
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

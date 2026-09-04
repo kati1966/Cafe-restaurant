@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>پیتزا و فست‌فود | کافه رستوران من</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            کافه رستوران من ☕
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="index.html#menu">منوی کافه</a></li>
+                <li><a href="index.html#about">درباره ما</a></li>
+                <li><a href="gallery.html">گالری</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
+            </ul>
+        </nav>
+
+        <a href="cart.html" class="cart">
+            🛒 سبد خرید
+            <span id="cart-count">0</span>
+        </a>
+
+    </header>
+
+
+    <!-- Hero -->
+    <section class="category-page-hero">
+
+        <div class="category-page-hero-content">
+
+            <span>داغ، تازه و خوشمزه</span>
+
+            <h1>پیتزا و فست‌فود</h1>
+
+            <p>
+                مجموعه‌ای از پیتزاهای خوش‌طعم و فست‌فودهای محبوب
+                برای یک وعده لذت‌بخش
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <section class="products-section">
+
+        <div class="products-grid">
+
+            <!-- پیتزا مخصوص -->
+            <div class="product-card">
+
+                <img src="images/pizza.jpg"
+                     alt="پیتزا مخصوص">
+
+                <div class="product-content">
+
+                    <h3>پیتزا مخصوص کافه</h3>
+
+                    <p>
+                        ترکیبی خوشمزه از پنیر، گوشت و سبزیجات تازه
+                    </p>
+
+                    <span class="product-price">
+                        320000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('پیتزا مخصوص کافه', 320000)">
+                             افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- پیتزا پپرونی -->
+            <div class="product-card">
+
+                <img src="images/pepperoni-pizza.jpg"
+                     alt="پیتزا پپرونی">
+
+                <div class="product-content">
+
+                    <h3>پیتزا پپرونی</h3>
+
+                    <p>
+                        پیتزای تند و خوش‌طعم با پپرونی و پنیر کشدار
+                    </p>
+
+                    <span class="product-price">
+                        350000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('پیتزا پپرونی', 350000)">
+                             افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- هات داگ -->
+            <div class="product-card">
+
+                <img src="images/hotdog.jpg"
+                     alt="هات‌داگ مخصوص">
+
+                <div class="product-content">
+
+                    <h3>هات‌داگ مخصوص</h3>
+
+                    <p>
+                        هات‌داگ خوشمزه با سس مخصوص و مواد تازه
+                    </p>
+
+                    <span class="product-price">
+                        230000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('هات‌داگ مخصوص', 230000)">
+                             افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- قارچ سوخاری -->
+            <div class="product-card">
+
+                <img src="images/fried-mushroom.jpg"
+                     alt="قارچ سوخاری">
+
+                <div class="product-content">
+
+                    <h3>قارچ سوخاری</h3>
+
+                    <p>
+                        قارچ تازه و سوخاری با بافتی ترد و خوشمزه
+                    </p>
+
+                    <span class="product-price">
+                        150000 تومان
+                    </span>
+
+                    <button class="add-to-cart-btn"
+                        onclick="addToCart('هات‌داگ مخصوص', 230000)">
+                         افزودن به سبد
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- دکمه بازگشت به منوی کافه -->
+    <div class="back-to-menu">
+        <a href="index.html#menu">← بازگشت به منوی کافه</a>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h3>کافه رستوران من ☕</h3>
+
+            <p>
+                جایی برای نوشیدن یک فنجان قهوه،
+                لذت بردن از غذاهای خوشمزه و ساختن
+                لحظه‌های ماندگار در کنار عزیزانتان.
+            </p>
+        </div>
+
+
+        <div class="footer-links">
+            <h3>دسترسی سریع</h3>
+
+            <a href="index.html">خانه</a>
+            <a href="index.html#menu">منوی کافه</a>
+            <a href="about.html">درباره ما</a>
+            <a href="gallery.html">گالری</a>
+            <a href="contact.html">تماس با ما</a>
+        </div>
+
+
+        <div class="footer-contact">
+            <h3>ارتباط با ما</h3>
+
+            <p>📞 ۰۲۱-۱۲۳۴۵۶۷۸</p>
+
+            <p>✉️ info@example.com</p>
+
+            <p>📍 تهران، ایران</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            تمامی حقوق محفوظ است © 2026
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

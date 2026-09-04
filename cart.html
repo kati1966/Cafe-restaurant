@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>سبد خرید</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+    <button class="menu-toggle" id="menu-toggle">
+        ☰
+    </button>
+
+    <div class="logo">
+        کافه رستوران من ☕
+    </div>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="index.html#menu">منوی کافه</a></li>
+            <li><a href="index.html#about">درباره ما</a></li>
+            <li><a href="gallery.html">گالری</a></li>
+            <li><a href="contact.html">تماس با ما</a></li>
+        </ul>
+    </nav>
+
+    <a href="cart.html" class="cart">
+        🛒 سبد خرید
+        <span id="cart-count">0</span>
+    </a>
+
+</header>
+
+
+    <main>
+
+        <section class="cart-page">
+
+            <h1>سبد خرید شما 🛒</h1>
+
+            <div id="cart-items">
+                <!-- محصولات با JavaScript اینجا نمایش داده می‌شوند -->
+            </div>
+
+            <div class="cart-total">
+                <h3>
+                    جمع کل:
+                    <span id="cart-total">0</span>
+                    تومان
+                </h3>
+            </div>
+			
+			<button class="clear-cart-btn" onclick="clearCart()">
+				🗑️ پاک کردن کل سبد خرید
+			</button>
+			
+			<a href="checkout.html" class="checkout-btn">
+				ثبت سفارش
+			</a>
+			
+            <a href="index.html" class="back-btn">
+                ادامه خرید
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h3>کافه رستوران من ☕</h3>
+
+            <p>
+                جایی برای نوشیدن یک فنجان قهوه،
+                لذت بردن از غذاهای خوشمزه و ساختن
+                لحظه‌های ماندگار در کنار عزیزانتان.
+            </p>
+        </div>
+
+
+        <div class="footer-links">
+            <h3>دسترسی سریع</h3>
+
+            <a href="index.html">خانه</a>
+            <a href="index.html#menu">منوی کافه</a>
+            <a href="about.html">درباره ما</a>
+            <a href="gallery.html">گالری</a>
+            <a href="contact.html">تماس با ما</a>
+        </div>
+
+
+        <div class="footer-contact">
+            <h3>ارتباط با ما</h3>
+
+            <p>📞 ۰۲۱-۱۲۳۴۵۶۷۸</p>
+
+            <p>✉️ info@example.com</p>
+
+            <p>📍 تهران، ایران</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            تمامی حقوق محفوظ است © 2026
+        </p>
+
+    </div>
+
+</footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
