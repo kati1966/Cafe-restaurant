@@ -536,3 +536,83 @@ if (menuToggle && mainNav) {
     );
 
 }
+
+/* =========================
+   فرم ثبت‌نام
+========================= */
+
+const registerForm =
+    document.getElementById("register-form");
+
+if (registerForm) {
+
+    registerForm.addEventListener(
+        "submit",
+        function(event) {
+
+            event.preventDefault();
+
+            const fullname =
+                document.getElementById("fullname").value.trim();
+
+            const email =
+                document.getElementById("register-email").value.trim();
+
+            const password =
+                document.getElementById("register-password").value;
+
+            const confirmPassword =
+                document.getElementById("confirm-password").value;
+
+
+            /* بررسی اطلاعات */
+
+            if (!fullname || !email || !password || !confirmPassword) {
+
+                alert("لطفاً تمام فیلدها را تکمیل کنید.");
+
+                return;
+            }
+
+
+            /* بررسی تطابق رمز عبور */
+
+            if (password !== confirmPassword) {
+
+                alert("رمز عبور و تکرار رمز عبور یکسان نیستند.");
+
+                return;
+            }
+
+
+            /* ذخیره اطلاعات کاربر در مرورگر */
+
+            const user = {
+
+                fullname: fullname,
+                email: email,
+                password: password
+
+            };
+
+
+            localStorage.setItem(
+                "user",
+                JSON.stringify(user)
+            );
+
+
+            alert(
+                "ثبت‌نام با موفقیت انجام شد 🌷"
+            );
+
+
+            /* انتقال به صفحه ورود */
+
+            window.location.href =
+                "login.html";
+
+        }
+    );
+
+}
