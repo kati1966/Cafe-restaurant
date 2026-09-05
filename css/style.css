@@ -2318,3 +2318,33 @@ footer {
 }
 
 } /* پایان @media (max-width: 768px) */
+
+/* =========================
+   ورود و ثبت‌نام
+========================= */
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
+}
+
+.user-actions a:hover {
+    opacity: 0.7;
+}
+
+.user-actions a + a::before {
+    content: "|";
+    margin-left: 8px;
+    margin-right: 8px;
+    opacity: 0.5;
+}
